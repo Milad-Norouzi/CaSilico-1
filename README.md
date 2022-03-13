@@ -10,8 +10,8 @@ Hence, we developed a tool matching the needs of both beginners and experts, nam
 Casilico outperforms previous crRNA design tools in the following respects: 1) supporting any reference genome/transcriptome for which a FASTA file is available; 2) designing crRNAs that simultaneously target multiple sequences through conserved region detection among a set of sequences; 3) considering new CRISPR-Cas subtypes; 4) reporting a list of different features for each candidate crRNA, which can help the user to select the best one. Given these capabilities, Casilico addresses end-user concerns arising from the use of sophisticated bioinformatics algorithms and has a wide range of potential research applications in different areas especially design of crRNA for pathogen diagnosis. 
 
 Casilico was successfully applied to design crRNAs for different genes in SARS-CoV-2 genome, as some of the crRNAs have been experimentally tested in the previous studies.
+![s](https://user-images.githubusercontent.com/9910942/158050606-9c592f1c-c0a4-4a4e-8cf8-ded8e0c7e7b6.png)
 
-![ش](https://user-images.githubusercontent.com/9910942/157799363-8f890ee4-4003-41f7-959c-d323b1bbeaab.png)
 
 Casilico workflow. (A) Casilico accepts a single or a set of DNA or RNA sequences to be scanned for crRNA designing. (B) When more than one sequences is given as input, the conserved regions among them automatically detect considering conservation threshold and one of the two different approaches for identifying conserved regions. (C) A sliding window (stride of 1 nt) is employed across the single sequences or conserved region of multiple sequences to specify potentail target sites. (D) Casilico applies multiple criteria for crRNA designing, performs off-target analysis and returns outputs in an interactive graphical interface and some files such as MSA and secondary structure (E & F).
 
